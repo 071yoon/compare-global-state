@@ -17,10 +17,16 @@ export default function CounterButtons() {
   };
 
   return (
-    <div>
-      <button onClick={onIncrease}>+1</button>
-      <button onClick={onDecrease}>-1</button>
-      <button onClick={() => onIncreaseBy(5)}>+5</button>
+    <div className="counter-buttons">
+      <button className="counter-button" onClick={onIncrease}>
+        +1
+      </button>
+      <button className="counter-button" onClick={onDecrease}>
+        -1
+      </button>
+      <button className="counter-button" onClick={() => onIncreaseBy(5)}>
+        +5
+      </button>
     </div>
   );
 }

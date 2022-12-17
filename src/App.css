@@ -20,3 +20,33 @@
 .App-header p:hover {
   cursor: pointer;
 }
+
+.App-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.App-body h1 {
+  font-size: 4rem;
+  margin-block-start: 0em;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.counter-button {
+  padding: 0.6rem 1rem;
+  color: white;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.counter-button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+}
