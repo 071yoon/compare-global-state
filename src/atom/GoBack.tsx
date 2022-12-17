@@ -16,7 +16,6 @@ export default function GoBack() {
         justifyContent: "center",
         alignItems: "center",
         cursor: "pointer",
-        fontSize: "2rem",
       }}
     >
       <svg
@@ -31,7 +30,6 @@ export default function GoBack() {
           fill="rgba(255,255,255,1)"
         />
       </svg>
-      Go Back Home
     </div>
   );
 }

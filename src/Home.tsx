@@ -10,7 +10,7 @@ export default function Home() {
       <p>Redux Toolkit</p>
       <p>Context API</p>
       <p>Recoil</p>
-      <p>Zustand</p>
+      <p onClick={() => navigate("/zustand")}>Zustand</p>
       <p>Jotai</p>
     </header>
   );
