@@ -1,18 +1,17 @@
-import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import Redux from "./redux/Redux";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Compare all react state management tools</p>
-        <a>Redux</a>
-        <a>Redux Toolkit</a>
-        <a>Context API</a>
-        <a>Recoil</a>
-        <a>Zustand</a>
-        <a>Jotai</a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/redux" element={<Redux />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
