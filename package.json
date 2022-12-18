@@ -18,7 +18,8 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
     "typescript": "^4.9.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,8 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "zustand": "^4.1.5"
   }
 }
