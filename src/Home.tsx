@@ -9,7 +9,7 @@ export default function Home() {
       <p onClick={() => navigate("/redux")}>Redux</p>
       <p>Redux Toolkit</p>
       <p>Context API</p>
-      <p>Recoil</p>
+      <p onClick={() => navigate("/recoil")}>Recoil</p>
       <p onClick={() => navigate("/zustand")}>Zustand</p>
       <p>Jotai</p>
     </header>
