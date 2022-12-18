@@ -1,5 +1,5 @@
 import { useRecoilValue } from "recoil";
-import getCountState from "./selector";
+import getCountState from "./modules/selector";
 
 export default function CounterValue() {
   const count = useRecoilValue(getCountState);

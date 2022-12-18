@@ -1,4 +1,4 @@
-import countState from "./atom";
+import countState from "./modules/atom";
 import { useRecoilState } from "recoil";
 
 export default function CounterButtons() {

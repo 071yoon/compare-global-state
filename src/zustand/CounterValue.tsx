@@ -1,4 +1,4 @@
-import counter from "./counter";
+import counter from "./modules/counter";
 
 export default function CounterValue() {
   const { count } = counter();

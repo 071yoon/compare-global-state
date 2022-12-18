@@ -1,6 +1,6 @@
 import { Provider } from "react-redux";
 import { legacy_createStore as createStore } from "redux";
-import rootReducer from ".";
+import rootReducer from "./modules";
 import CounterValue from "./CounterValue";
 import CounterButtons from "./CounterButtons";
 import GoBack from "../atom/GoBack";
