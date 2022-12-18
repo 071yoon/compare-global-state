@@ -1,5 +1,5 @@
 import GoBack from "../atom/GoBack";
-import CounterButtons from "./CounterButton";
+import CounterButtons from "./CounterButtons";
 import CounterValue from "./CounterValue";
 
 export default function Zustand() {
