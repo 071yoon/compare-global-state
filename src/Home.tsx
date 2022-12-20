@@ -11,7 +11,7 @@ export default function Home() {
       <p>Context API</p>
       <p onClick={() => navigate("/recoil")}>Recoil</p>
       <p onClick={() => navigate("/zustand")}>Zustand</p>
-      <p>Jotai</p>
+      <p onClick={() => navigate("/jotai")}>Jotai</p>
     </header>
   );
 }
