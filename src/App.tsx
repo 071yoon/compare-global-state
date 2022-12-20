@@ -4,6 +4,7 @@ import Redux from "./redux/Redux";
 import Zustand from "./zustand/Zustand";
 import Recoil from "./recoil/Recoil";
 import Jotai from "./jotai/Jotai";
+import ContextAPI from "./context-api/ContextAPI";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/zustand" element={<Zustand />} />
           <Route path="/recoil" element={<Recoil />} />
           <Route path="/jotai" element={<Jotai />} />
+          <Route path="/context-api" element={<ContextAPI />} />
         </Routes>
       </BrowserRouter>
     </div>
